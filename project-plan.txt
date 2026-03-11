@@ -1,0 +1,27 @@
+Project Plan: Dynamic Blog Website
+
+1. Project Overview:
+   - A multi-page blog website with homepage, new post page, and post view/edit page.
+   - Users can create, read, update, and delete blog posts using JavaScript and local storage.
+
+2. Pages:
+   - index.html: Homepage showing list of blog posts.
+   - new-post.html: Form to create new blog posts.
+   - post.html: View and edit individual blog posts.
+
+3. Features:
+   - CRUD operations stored in browser local storage.
+   - Responsive design for mobile and desktop.
+   - Navigation menu for easy page switching.
+
+4. Git Workflow:
+   - Use branches for each feature (homepage, new post, view/edit, delete, styling).
+   - Multiple commits per feature to document progress.
+
+5. Milestones:
+   - Step 1: Setup repository and project plan (done).
+   - Step 2: Build homepage with blog post listing.
+   - Step 3: Implement new post creation.
+   - Step 4: Implement post view and edit.
+   - Step 5: Implement delete functionality.
+   - Step 6: Add responsive styling (optional).
