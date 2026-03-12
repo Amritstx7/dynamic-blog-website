@@ -82,3 +82,12 @@ footer {
         margin: 10px;
     }
 }
+
+nav ul li a {
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff9900; 
+    text-decoration: underline;
+}
