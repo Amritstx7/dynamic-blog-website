@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog Homepage</title>
+    <title>Create New Post</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -18,16 +18,22 @@
     </header>
 
     <main>
-        <h2>Blog Posts</h2>
-        <ul id="post-list">
-            <!-- Blog posts will appear here -->
-        </ul>
+        <h2>Create a New Post</h2>
+        <form id="new-post-form">
+            <label for="post-title">Title:</label><br>
+            <input type="text" id="post-title" name="post-title" required><br><br>
+
+            <label for="post-content">Content:</label><br>
+            <textarea id="post-content" name="post-content" rows="6" required></textarea><br><br>
+
+            <button type="submit">Add Post</button>
+        </form>
     </main>
 
     <footer>
         <p>© Amrit Tiwana 2026</p>
     </footer>
 
-    <script src="index.js"></script>
+    <script src="new-post.js"></script>
 </body>
 </html>
